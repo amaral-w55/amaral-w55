@@ -48,7 +48,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
 
-### 🛒 [**E-commerce**](https:amaral-w55.github.io/SiteCoffeeHearth](https://github.com/amaral-w55/SiteCoffeeHearth)
+### 🛒 [**E-commerce**]([https:amaral-w55.github.io/SiteCoffeeHearth](https://github.com/amaral-w55/SiteCoffeeHearth])
 > Plataforma de e-commerce com carrinho
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vue.js&logoColor=4FC08D)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
