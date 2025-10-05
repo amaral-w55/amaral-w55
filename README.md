@@ -42,24 +42,13 @@
 
 ## 📂 **Projetos em Destaque**
 
-### 🎯 [**Sistema de Gestão**](https://github.com/SEU-USUARIO/projeto-1)
-> Sistema completo para gerenciamento de tarefas e projetos
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
-
-### 🛒 [**E-commerce**](https://github.com/amaral-w55/SiteCoffeeHearth)
+### ☕ [**Cafeteria**](https://github.com/amaral-w55/SiteCoffeeHearth)
 > Plataforma de e-commerce com carrinho
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vue.js&logoColor=4FC08D)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vue.js&logoColor=4FC08D)
+![CSS3](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![JavaScript](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white)
 
-### 💰 [**App de Finanças**](https://github.com/SEU-USUARIO/projeto-3)
-> Aplicativo para controle de gastos pessoais
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
----
 
 ## 📈 **Atividade no GitHub**
 
