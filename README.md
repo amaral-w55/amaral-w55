@@ -85,7 +85,6 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=amaral-w55&color=blue&style=flat-square" alt="Visualizações do perfil" />
-  <img src="https://wakatime.com/badge/user/YOUR_WAKATIME_ID.svg" alt="Tempo de codificação" />
 </p>
 
 <p align="center">
