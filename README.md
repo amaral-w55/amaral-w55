@@ -1,354 +1,111 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - Meu Perfil</title>
-    <style>
-        :root {
-            --primary-color: #2d3748;
-            --secondary-color: #4a5568;
-            --accent-color: #3182ce;
-            --bg-color: #f7fafc;
-            --text-color: #2d3748;
-            --border-color: #e2e8f0;
-        }
+<h1 align="center">👋 Olá, eu sou [Seu Nome]!</h1>
+<h3 align="center">🚀 Desenvolvedor Full Stack apaixonado por tecnologia</h3>
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E8B57&center=true&vCenter=true&width=435&lines=Desenvolvedor+Full+Stack;Apaixonado+por+Tecnologia;Sempre+aprendendo+coisas+novas" alt="Typing SVG" />
+</p>
 
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-            padding: 20px;
-            max-width: 900px;
-            margin: 0 auto;
-        }
+---
 
-        .container {
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 30px;
-            margin-bottom: 20px;
-        }
+## 📊 **Minhas Estatísticas**
 
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-            border-bottom: 2px solid var(--border-color);
-            padding-bottom: 20px;
-        }
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SEU-USUARIO&show_icons=true&theme=radical" alt="Estatísticas" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU-USUARIO&layout=compact&theme=radical" alt="Linguagens" height="160" />
+</p>
 
-        h1 {
-            color: var(--primary-color);
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SEU-USUARIO&theme=radical" alt="Streak" height="160" />
+</p>
 
-        h2 {
-            color: var(--secondary-color);
-            font-size: 1.8rem;
-            margin: 25px 0 15px;
-            border-left: 4px solid var(--accent-color);
-            padding-left: 10px;
-        }
+---
 
-        h3 {
-            color: var(--secondary-color);
-            font-size: 1.4rem;
-            margin: 20px 0 10px;
-        }
+## 🛠 **Tecnologias e Ferramentas**
 
-        p {
-            margin-bottom: 15px;
-        }
+### **Frontend**
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
 
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid var(--accent-color);
-            margin: 0 auto 20px;
-            display: block;
-        }
+### **Backend**
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 
-        .badges {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin: 20px 0;
-        }
+### **Banco de Dados**
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-        .badge {
-            background-color: var(--accent-color);
-            color: white;
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            font-weight: 500;
-        }
+### **Ferramentas**
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-        .links {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin: 20px 0;
-        }
+---
 
-        .link {
-            display: inline-flex;
-            align-items: center;
-            gap: 5px;
-            color: var(--accent-color);
-            text-decoration: none;
-            font-weight: 500;
-            transition: all 0.3s ease;
-        }
+## 📂 **Projetos em Destaque**
 
-        .link:hover {
-            text-decoration: underline;
-            transform: translateY(-2px);
-        }
+### 🎯 [**Sistema de Gestão**](https://github.com/SEU-USUARIO/projeto-1)
+> Sistema completo para gerenciamento de tarefas e projetos
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
 
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin: 25px 0;
-        }
+### 🛒 [**E-commerce**](https://github.com/SEU-USUARIO/projeto-2)
+> Plataforma de e-commerce com carrinho e pagamento
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vue.js&logoColor=4FC08D)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white)
 
-        .stat {
-            background-color: var(--bg-color);
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
-            border-left: 3px solid var(--accent-color);
-        }
+### 💰 [**App de Finanças**](https://github.com/SEU-USUARIO/projeto-3)
+> Aplicativo para controle de gastos pessoais
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
-        .stat-value {
-            font-size: 1.8rem;
-            font-weight: bold;
-            color: var(--accent-color);
-        }
+---
 
-        .stat-label {
-            font-size: 0.9rem;
-            color: var(--secondary-color);
-        }
+## 📈 **Atividade no GitHub**
 
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 20px;
-            margin: 25px 0;
-        }
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SEU-USUARIO&theme=react-dark&bg_color=20232a&hide_border=true" alt="Activity Graph" />
+</p>
 
-        .project {
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 15px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
+---
 
-        .project:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-        }
+## 📫 **Como me encontrar**
 
-        .project-title {
-            font-size: 1.2rem;
-            margin-bottom: 10px;
-            color: var(--primary-color);
-        }
+<p align="center">
+  <a href="mailto:seuemail@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://linkedin.com/in/seu-perfil">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://portfolio.seusite.com">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
+  </a>
+</p>
 
-        .project-description {
-            font-size: 0.9rem;
-            color: var(--secondary-color);
-            margin-bottom: 15px;
-        }
+---
 
-        .project-tech {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 5px;
-        }
+## 🎯 **Metas para 2024**
 
-        .tech-tag {
-            background-color: var(--bg-color);
-            color: var(--secondary-color);
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-size: 0.8rem;
-        }
+- [ ] Aprender **React Native**
+- [ ] Contribuir para projetos **open source**
+- [ ] Dominar **Docker e Kubernetes**
+- [ ] Publicar um **artigo técnico**
 
-        footer {
-            text-align: center;
-            margin-top: 30px;
-            padding-top: 20px;
-            border-top: 1px solid var(--border-color);
-            color: var(--secondary-color);
-            font-size: 0.9rem;
-        }
+---
 
-        @media (max-width: 768px) {
-            body {
-                padding: 10px;
-            }
-            
-            .container {
-                padding: 20px;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            .links {
-                flex-direction: column;
-                align-items: center;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <!-- Substitua pela URL da sua imagem de perfil -->
-            <img src="https://via.placeholder.com/150" alt="Foto de Perfil" class="profile-img">
-            <h1>Seu Nome</h1>
-            <p>Desenvolvedor Full Stack | Apaixonado por tecnologia e inovação</p>
-            
-            <div class="badges">
-                <span class="badge">JavaScript</span>
-                <span class="badge">Python</span>
-                <span class="badge">React</span>
-                <span class="badge">Node.js</span>
-                <span class="badge">SQL</span>
-                <span class="badge">Git</span>
-            </div>
-            
-            <div class="links">
-                <a href="mailto:seuemail@exemplo.com" class="link">✉️ Email</a>
-                <a href="https://linkedin.com/in/seu-perfil" class="link">💼 LinkedIn</a>
-                <a href="https://twitter.com/seu-perfil" class="link">🐦 Twitter</a>
-                <a href="https://portfolio.seusite.com" class="link">🌐 Portfolio</a>
-            </div>
-        </header>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=SEU-USUARIO&color=blue&style=flat-square" alt="Visualizações do perfil" />
+  <img src="https://wakatime.com/badge/user/YOUR_WAKATIME_ID.svg" alt="Tempo de codificação" />
+</p>
 
-        <section>
-            <h2>Sobre Mim</h2>
-            <p>Olá! Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Com experiência em desenvolvimento web full stack, busco sempre aprender novas tecnologias e enfrentar desafios complexos.</p>
-            <p>Atualmente, estou focado em [área de interesse atual] e trabalhando em projetos que envolvem [tecnologias ou conceitos específicos].</p>
-            
-            <div class="stats">
-                <div class="stat">
-                    <div class="stat-value">3+</div>
-                    <div class="stat-label">Anos de Experiência</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-value">50+</div>
-                    <div class="stat-label">Projetos Concluídos</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-value">10+</div>
-                    <div class="stat-label">Tecnologias</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-value">5</div>
-                    <div class="stat-label">Certificações</div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2>Tecnologias e Ferramentas</h2>
-            <h3>Frontend</h3>
-            <div class="badges">
-                <span class="badge">HTML5</span>
-                <span class="badge">CSS3</span>
-                <span class="badge">JavaScript</span>
-                <span class="badge">React</span>
-                <span class="badge">Vue.js</span>
-                <span class="badge">Bootstrap</span>
-            </div>
-            
-            <h3>Backend</h3>
-            <div class="badges">
-                <span class="badge">Node.js</span>
-                <span class="badge">Python</span>
-                <span class="badge">Express</span>
-                <span class="badge">Django</span>
-                <span class="badge">MySQL</span>
-                <span class="badge">MongoDB</span>
-            </div>
-            
-            <h3>Ferramentas</h3>
-            <div class="badges">
-                <span class="badge">Git</span>
-                <span class="badge">Docker</span>
-                <span class="badge">VS Code</span>
-                <span class="badge">Figma</span>
-                <span class="badge">Postman</span>
-            </div>
-        </section>
-
-        <section>
-            <h2>Projetos em Destaque</h2>
-            <div class="projects">
-                <div class="project">
-                    <h3 class="project-title">Sistema de Gestão</h3>
-                    <p class="project-description">Uma aplicação web completa para gerenciamento de tarefas e projetos com dashboard interativo.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">React</span>
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">MongoDB</span>
-                    </div>
-                </div>
-                
-                <div class="project">
-                    <h3 class="project-title">E-commerce</h3>
-                    <p class="project-description">Plataforma de e-commerce com carrinho de compras, pagamento integrado e painel administrativo.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Vue.js</span>
-                        <span class="tech-tag">Express</span>
-                        <span class="tech-tag">MySQL</span>
-                    </div>
-                </div>
-                
-                <div class="project">
-                    <h3 class="project-title">App de Finanças Pessoais</h3>
-                    <p class="project-description">Aplicativo móvel para controle de gastos e orçamento pessoal com gráficos e relatórios.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">React Native</span>
-                        <span class="tech-tag">Firebase</span>
-                        <span class="tech-tag">Chart.js</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2>Contato</h2>
-            <p>Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato comigo!</p>
-            
-            <div class="links">
-                <a href="mailto:seuemail@exemplo.com" class="link">📧 Enviar Email</a>
-                <a href="https://linkedin.com/in/seu-perfil" class="link">👔 Conectar no LinkedIn</a>
-                <a href="https://github.com/seu-usuario" class="link">💻 Ver GitHub</a>
-            </div>
-        </section>
-
-        <footer>
-            <p>© 2023 Seu Nome. Todos os direitos reservados.</p>
-            <p>📧 seuemail@exemplo.com | 📍 Sua Localização</p>
-        </footer>
-    </div>
-</body>
-</html>
+<p align="center">
+  ⭐️ Feito com ❤️ e ☕️
+</p>
