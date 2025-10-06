@@ -2,7 +2,7 @@
 <h3 align="center">🚀 Estudante Full Stack apaixonado por tecnologia</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E8B57&center=true&vCenter=true&width=435&lines=Desenvolvedor+Full+Stack;Apaixonado+por+Tecnologia;Sempre+aprendendo+coisas+novas" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E8B57&center=true&vCenter=true&width=435&lines=Estudante+Full+Stack;Apaixonado+por+Tecnologia;Sempre+aprendendo+coisas+novas" alt="Typing SVG" />
 </p>
 
 ---
